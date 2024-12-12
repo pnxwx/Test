@@ -1,0 +1,82 @@
+/* General Style */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #3b5998;
+  color: white;
+  padding: 10px 0;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.hero {
+  text-align: center;
+  background-color: #f4f4f4;
+  padding: 50px 20px;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.hero button {
+  padding: 10px 20px;
+  background-color: #3b5998;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Content Section */
+.content {
+  padding: 20px;
+}
+
+.lesson-section, .faq-section {
+  margin-bottom: 30px;
+}
+
+.lesson-grid, .faq-grid {
+  display: flex;
+  gap: 20px;
+}
+
+.lesson-card, .faq-card {
+  border: 1px solid #ddd;
+  padding: 15px;
+  text-align: center;
+  border-radius: 10px;
+  flex: 1;
+}
+
+footer {
+  text-align: center;
+  background-color: #3b5998;
+  color: white;
+  padding: 10px 0;
+}
+
+
